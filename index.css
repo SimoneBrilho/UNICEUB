@@ -1,0 +1,29 @@
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #9b0f34;
+}
+
+    .apresentacao__experiencia__conteudo {
+    display: flex;
+    flex-wrap: wrap;
+              }
+
+    .coluna {
+    padding: 2em 2em;
+    }
+    .column {
+        float: left;
+        width: 33.33%;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      body{
+        background-color:pink;
+     }
